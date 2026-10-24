@@ -1,0 +1,32 @@
+# Local credentials and machine settings
+/config.py
+.env
+.env.*
+!.env.example
+**/.claude/settings.local.json
+.DS_Store
+.idea/
+.vscode/
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Runtime state, logs, and generated model artifacts
+*.db
+*.db-shm
+*.db-wal
+*.log
+logs/
+checkpoints/
+outputs/
+wandb/
+
+# Local demonstration recordings
+*.mp4

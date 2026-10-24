@@ -28,5 +28,4 @@ checkpoints/
 outputs/
 wandb/
 
-# Local demonstration recordings
 *.mp4
